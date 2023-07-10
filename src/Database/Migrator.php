@@ -124,7 +124,7 @@ class Migrator {
 	protected function get_migrations_path() {
 		$base_path = __FILE__;
 
-		while ( basename( $base_path ) != 'vendor' ) {
+		while ( basename( $base_path ) != 'Vendor' ) {
 			$base_path = dirname( $base_path );
 		}
 
